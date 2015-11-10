@@ -44,6 +44,7 @@
 		5EE432121B8EB15D00B17ED4 /* empty trash.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5EE432111B8EB15D00B17ED4 /* empty trash.aif */; };
 		A61019701BEF14D600972CBE /* rotateball.png in Resources */ = {isa = PBXBuildFile; fileRef = A610196F1BEF14D600972CBE /* rotateball.png */; };
 		A676B9701BEFA08600E7DC9F /* RotateBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A676B96F1BEFA08600E7DC9F /* RotateBall.m */; };
+		A6B05B641BF2380B00C30B38 /* PinchRotateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B05B631BF2380B00C30B38 /* PinchRotateDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,8 @@
 		A610196F1BEF14D600972CBE /* rotateball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotateball.png; sourceTree = "<group>"; };
 		A676B96E1BEFA08600E7DC9F /* RotateBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateBall.h; sourceTree = "<group>"; };
 		A676B96F1BEFA08600E7DC9F /* RotateBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateBall.m; sourceTree = "<group>"; };
+		A6B05B621BF2380B00C30B38 /* PinchRotateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchRotateDelegate.h; sourceTree = "<group>"; };
+		A6B05B631BF2380B00C30B38 /* PinchRotateDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchRotateDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +234,8 @@
 				A610196F1BEF14D600972CBE /* rotateball.png */,
 				A676B96E1BEFA08600E7DC9F /* RotateBall.h */,
 				A676B96F1BEFA08600E7DC9F /* RotateBall.m */,
+				A6B05B621BF2380B00C30B38 /* PinchRotateDelegate.h */,
+				A6B05B631BF2380B00C30B38 /* PinchRotateDelegate.m */,
 			);
 			name = HW;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				5E0771771B8C5A5E000D7997 /* AppDelegate.m in Sources */,
 				5E9ADAD91B8F66DC00C5D631 /* UIImageView+Photo.m in Sources */,
 				5E07714D1B8C5919000D7997 /* main.m in Sources */,
+				A6B05B641BF2380B00C30B38 /* PinchRotateDelegate.m in Sources */,
 				5EBF445F1B8E17FC00323486 /* TapUI.m in Sources */,
 				5E0771A31B8C7331000D7997 /* Pan.m in Sources */,
 				A676B9701BEFA08600E7DC9F /* RotateBall.m in Sources */,

@@ -29,7 +29,8 @@
                                   ]};
     NSDictionary* hw = @{SECTION: @"HW", MENU: @[
                                     @{TITLE: @"Rotate Ball", CLASS: @"RotateBall"},
-                                    ]};
+                                    @{TITLE: @"Pinch Rotate Delegate", CLASS: @"PinchRotateDelegate"}
+                                  ]};
 
     
     mainScreen.menu = @[basic, intermediate, hw];

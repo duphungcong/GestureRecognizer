@@ -31,8 +31,8 @@
     ball.multipleTouchEnabled = true;
     [self.view addSubview:ball];
     
-    UIRotationGestureRecognizer* rotateGesture = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotateBall:)];
-    [ball addGestureRecognizer:rotateGesture];
+    UIRotationGestureRecognizer* rotate = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotateBall:)];
+    [ball addGestureRecognizer:rotate];
     
 }
 

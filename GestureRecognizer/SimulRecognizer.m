@@ -65,7 +65,7 @@
     tap.delegate = self;
     [bullEye addGestureRecognizer:tap];
     
-    //[swipe requireGestureRecognizerToFail:pan];
+    //[pan requireGestureRecognizerToFail:swipe];
 
     timer = [NSTimer scheduledTimerWithTimeInterval:0.1
                                              target:self
@@ -114,7 +114,7 @@
 }
 
 /*- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
-    return false;
+    return true;
 }*/
 
 /*- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer{
