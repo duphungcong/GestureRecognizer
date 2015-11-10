@@ -61,7 +61,8 @@
     return true;
 }*/
 
-// Uu tien rotate
+// Uu tien Rotate
+// Comment neu muon uu tien Pinch
 /*- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     if([gestureRecognizer isMemberOfClass:[UIPinchGestureRecognizer class]] &&
        [otherGestureRecognizer isMemberOfClass:[UIRotationGestureRecognizer class]]) {
@@ -72,7 +73,8 @@
     }
 }*/
 
-// Uu tien pinch
+// Uu tien Pinch.
+// Comment neu muon uu tien Rotate
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     if([gestureRecognizer isMemberOfClass:[UIPinchGestureRecognizer class]] &&
        [otherGestureRecognizer isMemberOfClass:[UIRotationGestureRecognizer class]]) {
