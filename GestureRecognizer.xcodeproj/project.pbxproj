@@ -43,6 +43,7 @@
 		5EBF44601B8E17FC00323486 /* TapUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EBF445E1B8E17FC00323486 /* TapUI.xib */; };
 		5EE432121B8EB15D00B17ED4 /* empty trash.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5EE432111B8EB15D00B17ED4 /* empty trash.aif */; };
 		A61019701BEF14D600972CBE /* rotateball.png in Resources */ = {isa = PBXBuildFile; fileRef = A610196F1BEF14D600972CBE /* rotateball.png */; };
+		A61267F31BF4AF9600C3EA6F /* LenZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = A61267F21BF4AF9600C3EA6F /* LenZoom.m */; };
 		A676B9701BEFA08600E7DC9F /* RotateBall.m in Sources */ = {isa = PBXBuildFile; fileRef = A676B96F1BEFA08600E7DC9F /* RotateBall.m */; };
 		A6B05B641BF2380B00C30B38 /* PinchRotateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B05B631BF2380B00C30B38 /* PinchRotateDelegate.m */; };
 /* End PBXBuildFile section */
@@ -98,6 +99,8 @@
 		5EBF445E1B8E17FC00323486 /* TapUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapUI.xib; sourceTree = "<group>"; };
 		5EE432111B8EB15D00B17ED4 /* empty trash.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "empty trash.aif"; sourceTree = "<group>"; };
 		A610196F1BEF14D600972CBE /* rotateball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotateball.png; sourceTree = "<group>"; };
+		A61267F11BF4AF9600C3EA6F /* LenZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LenZoom.h; sourceTree = "<group>"; };
+		A61267F21BF4AF9600C3EA6F /* LenZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LenZoom.m; sourceTree = "<group>"; };
 		A676B96E1BEFA08600E7DC9F /* RotateBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateBall.h; sourceTree = "<group>"; };
 		A676B96F1BEFA08600E7DC9F /* RotateBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateBall.m; sourceTree = "<group>"; };
 		A6B05B621BF2380B00C30B38 /* PinchRotateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchRotateDelegate.h; sourceTree = "<group>"; };
@@ -236,6 +239,8 @@
 				A676B96F1BEFA08600E7DC9F /* RotateBall.m */,
 				A6B05B621BF2380B00C30B38 /* PinchRotateDelegate.h */,
 				A6B05B631BF2380B00C30B38 /* PinchRotateDelegate.m */,
+				A61267F11BF4AF9600C3EA6F /* LenZoom.h */,
+				A61267F21BF4AF9600C3EA6F /* LenZoom.m */,
 			);
 			name = HW;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				5E0771781B8C5A5E000D7997 /* BootLogic.m in Sources */,
 				5E07717D1B8C63F5000D7997 /* Tap.m in Sources */,
 				5E0771B11B8C8C84000D7997 /* Pinch.m in Sources */,
+				A61267F31BF4AF9600C3EA6F /* LenZoom.m in Sources */,
 				5E0771771B8C5A5E000D7997 /* AppDelegate.m in Sources */,
 				5E9ADAD91B8F66DC00C5D631 /* UIImageView+Photo.m in Sources */,
 				5E07714D1B8C5919000D7997 /* main.m in Sources */,

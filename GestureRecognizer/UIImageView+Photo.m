@@ -64,7 +64,6 @@ UIPinchGestureRecognizer *pinchRecognizer;
     }
 }
 
-
 // scale and rotation transforms are applied relative to the layer's anchor point
 // this method moves a gesture recognizer's view's anchor point between the user's fingers
 - (void)adjustAnchorPointForGestureRecognizer:(UIGestureRecognizer *)gestureRecognizer {

@@ -29,7 +29,8 @@
                                   ]};
     NSDictionary* hw = @{SECTION: @"HW", MENU: @[
                                     @{TITLE: @"Rotate Ball", CLASS: @"RotateBall"},
-                                    @{TITLE: @"Pinch Rotate Delegate", CLASS: @"PinchRotateDelegate"}
+                                    @{TITLE: @"Pinch Rotate Delegate", CLASS: @"PinchRotateDelegate"},
+                                    @{TITLE: @"Len Zoom", CLASS: @"LenZoom"}
                                   ]};
 
     

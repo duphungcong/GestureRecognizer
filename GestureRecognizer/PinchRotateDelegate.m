@@ -73,7 +73,7 @@
     }
 }*/
 
-// Uu tien Pinch.
+// Uu tien Pinch
 // Comment neu muon uu tien Rotate
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     if([gestureRecognizer isMemberOfClass:[UIPinchGestureRecognizer class]] &&
